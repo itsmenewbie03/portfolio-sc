@@ -10,36 +10,36 @@
 </script>
 
 <svelte:head>
-	<title>Gianmarco Cavallo — Blog</title>
+	<title>itsmenewbie03 — Blog</title>
 </svelte:head>
 
 <div class="articlesContainer">
 	<div class="articles">
 		<h1>Articles</h1>
 
-		{#each filteredArticles as article}
-			<div class="article">
-				<div class="header">
-					<h2>
-						{article.title}
-					</h2>
-					<div>Tags: {article.tags || article.category}</div>
-				</div>
-				<p>
-					{article.description || ''}
-				</p>
-
-				<a
-					href={article.id ? `/blog/${article.id}` : article.link}
-					target={!article.id ? '_blank' : '_self'}
-				>
-					<div class="button">Read Article =></div>
-				</a>
-			</div>
-		{/each}
-		{#if filteredArticles.length === 0}
-			<div>No Articles</div>
-		{/if}
+		<!-- {#each filteredArticles as article} -->
+		<!-- 	<div class="article"> -->
+		<!-- 		<div class="header"> -->
+		<!-- 			<h2> -->
+		<!-- 				{article.title} -->
+		<!-- 			</h2> -->
+		<!-- 			<div>Tags: {article.tags || article.category}</div> -->
+		<!-- 		</div> -->
+		<!-- 		<p> -->
+		<!-- 			{article.description || ''} -->
+		<!-- 		</p> -->
+		<!---->
+		<!-- 		<a -->
+		<!-- 			href={article.id ? `/blog/${article.id}` : article.link} -->
+		<!-- 			target={!article.id ? '_blank' : '_self'} -->
+		<!-- 		> -->
+		<!-- 			<div class="button">Read Article =></div> -->
+		<!-- 		</a> -->
+		<!-- 	</div> -->
+		<!-- {/each} -->
+		<!-- {#if filteredArticles.length === 0} -->
+		<div>No Articles coz I'm lazy</div>
+		<!-- {/if} -->
 	</div>
 </div>
 

@@ -1,23 +1,16 @@
 const projects = [
 	{
-		title: 'GDLauncher',
-		technologies: ['Node', 'React', 'Redux', 'Electron'],
+		title: 'Snakes and Ladders',
+		technologies: ['Rust'],
 		description:
-			'GDLauncher is a simple, yet powerful Minecraft custom launcher with a strong focus on the user experience',
-		url: 'https://github.com/gorilla-devs/GDLauncher'
+			'Snake and Ladder is simple implementation of the game using rust. I made this as a way to get familiar with the language.',
+		url: 'https://github.com/itsmenewbie03/rs-snakesnladders'
 	},
 	{
-		title: 'WiseMan Discord Bot',
-		technologies: ['NodeJs', 'FireBase', 'MongoDb', 'golang'],
-		description:
-			'The wiseMan bot allows you to level up based on the time you spend in a vocal channel',
-		url: 'https://github.com/Ladvace/WiseMan-DiscordBot'
-	},
-	{
-		title: 'Easy-react-carousel',
-		technologies: ['React', 'NodeJs'],
-		description: 'A simple carousel made in reactjs',
-		url: 'https://github.com/Ladvace/easy-react-carousel'
+		title: 'FB GPT Bot',
+		technologies: ['NodeJS'],
+		description: 'A simple facebook bot template using GPT-3.',
+		url: 'https://github.com/itsmenewbie03/fb-gpt-bot'
 	}
 ];
 
