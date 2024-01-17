@@ -10,7 +10,7 @@
 	<title>itsmenewbie03 - Main page</title>
 </svelte:head>
 <main>
-	<h1>Hi, itsmenewbie03 ✋</h1>
+	<h1>Hi, itsmenewbie03 👋</h1>
 	<div class="icons">
 		<div
 			role="button"
