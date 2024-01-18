@@ -8,12 +8,6 @@
 
 <svelte:head>
 	<title>itsmenewbie03 - Main page</title>
-	<meta property="og:title" content="Hi, itsmenewbie03 👋" />
-	<meta property="og:description" content="Curiosity is where this all started." />
-	<meta property="og:image" content="https://i.redd.it/4q7g5p37naa81.png" />
-	<meta property="og:url" content="https://itsmenewbie03.is-a.dev" />
-	<meta property="og:type" content="website" />
-	<meta property="fb:app_id" content="1110621549957918" />
 </svelte:head>
 <main>
 	<h1>Hi, itsmenewbie03 👋</h1>
