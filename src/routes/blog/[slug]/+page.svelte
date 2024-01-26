@@ -1,9 +1,5 @@
 <script lang="ts">
-	import FaExternalLinkAlt from 'svelte-icons/fa/FaExternalLinkAlt.svelte';
-	import type { Article, PageData } from './types.js';
-
-	export let data: PageData;
-	let article: Article = data.article;
+	let article: any = {};
 </script>
 
 <svelte:head>
@@ -11,15 +7,7 @@
 </svelte:head>
 
 <div class="articleContainer">
-	<div class="article">
-		{#if article}
-			<h1 class="title">
-				<a href={article.url} target="_blank" rel="noreferrer">{article.title} </a>
-				<a class="icon" href={article.url} target="_blank"><FaExternalLinkAlt /></a>
-			</h1>
-			{@html article.body_html}
-		{/if}
-	</div>
+	<div class="article" />
 </div>
 
 <style>

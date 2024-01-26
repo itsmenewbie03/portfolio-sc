@@ -1,13 +1,4 @@
-<script>
-	export let data;
-	let devToArticles = data.devToArticles;
-
-	const blackListedArticles = [422939];
-
-	const articles = [...devToArticles];
-
-	const filteredArticles = articles.filter((article) => !blackListedArticles.includes(article?.id));
-</script>
+<script></script>
 
 <svelte:head>
 	<title>itsmenewbie03 — Blog</title>
